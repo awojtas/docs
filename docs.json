@@ -24,6 +24,8 @@
             "group": "Using Turnsies",
             "pages": [
               "web/managing-activities",
+              "web/automatic-rotation",
+              "web/rewards",
               "web/participant-groups",
               "web/inviting-users",
               "web/settings"
