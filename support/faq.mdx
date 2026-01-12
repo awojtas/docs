@@ -43,33 +43,51 @@ Yes, go to the Archive section, open the activity, and click **Restore**.
 
 ### What's the difference between local and invited participants?
 
-- **Local participants**: Names you add manually. Only visible to you.
-- **Invited participants**: Registered Turnsies users who can access and update the activity.
+- **Local participants**: Names you add manually. Only visible to you. They don't need a Turnsies account.
+- **Invited participants**: Registered Turnsies users who receive an email invitation and can access and update the activity.
 
 ### Can I remove a participant?
 
-Yes, edit the activity and remove the participant. Their turn history will be preserved.
+Yes, edit the activity and remove the participant. Their turn history will be preserved. If you're a participant (not the owner), you can leave the activity from the menu.
 
 ### How do participant groups work?
 
-Groups let you quickly add the same set of people to multiple activities. Create a group once, then add all members with one click.
+Groups let you quickly add the same set of people to multiple activities. Create a group once, then add all members with one click when creating or editing activities.
+
+### What are admin permissions?
+
+Admins can edit activity settings, add/remove participants, complete turns on behalf of others, and archive/delete the activity. Activity owners can designate any participant as an admin.
+
+### Can I exclude someone from rotation without removing them?
+
+Yes, you can mark a participant as "not participating." They'll remain in the activity (and keep admin rights if they had them) but won't appear in the turn rotation or earn rewards.
 
 ## Turn tracking
 
 ### How does turn rotation work?
 
-Turnsies supports three rotation modes:
-- **Sequential**: Participants take turns in order
-- **Random**: Next participant is selected randomly
-- **Manual**: You choose who goes next
+Turnsies supports two rotation modes:
+- **Manual**: Participants manually mark turns as complete
+- **Automatic**: Turns rotate automatically on a schedule (daily, weekly, fortnightly, or monthly)
 
 ### Can I skip someone's turn?
 
-Yes, when completing a turn, you can select who goes next instead of following the rotation.
+Yes, if skip rules allow it. Activities can be configured with three skip rule options:
+- **Everyone**: Any participant can skip any turn
+- **Own turns only**: Participants can only skip their own turns
+- **No skips**: Skipping is disabled
 
 ### Can I undo a turn?
 
-Currently, you cannot undo a completed turn. This feature may be added in the future.
+Yes, you can undo the most recent turn if it was completed within the last few minutes. Click the menu (three dots) and select **Undo**.
+
+### What is "Done by me"?
+
+If you complete an activity when it's not your turn, use "Done by me" from the menu. This records that you did the activity while keeping the turn order intact.
+
+### How does automatic rotation work?
+
+With automatic rotation, turns advance on a schedule without manual action. You can set activities to rotate daily, weekly, fortnightly, or monthly at a specific time. See the [Automatic rotation guide](/web/automatic-rotation) for details.
 
 ## Account
 
@@ -85,11 +103,29 @@ Go to **Settings** → **Account** → **Delete Account**. This action is perman
 
 Yes, go to **Settings** → **Data** → **Export Data**. You'll receive an email with a download link.
 
+## Rewards
+
+### How does the rewards system work?
+
+You can configure activities to award money or points when participants complete turns. Balances accumulate over time, and activity owners can record payouts when rewards are redeemed. See the [Rewards guide](/web/rewards) for details.
+
+### What currencies are supported?
+
+Money rewards support USD, NZD, AUD, and GBP. Amounts are stored in cents/pence for precision.
+
+### Can I change reward values after creating an activity?
+
+Yes, you can edit the reward configuration at any time. Changes apply to future turns only—previous balances are not affected.
+
+### What happens to rewards if I disable them?
+
+Existing balances and payout history are preserved. If you re-enable rewards later, previous balances will still be there.
+
 ## Technical
 
 ### Does Turnsies work offline?
 
-The mobile app caches activities for offline access. Changes sync when you're back online. The web app requires an internet connection.
+The web app requires an internet connection. The mobile app (coming soon) will cache activities for offline access, with changes syncing when you're back online.
 
 ### Why isn't my data syncing?
 
