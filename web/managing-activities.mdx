@@ -71,8 +71,79 @@ Deleting an activity is permanent and cannot be undone.
 2. Click **Delete** in the menu
 3. Confirm the deletion
 
+## Skip rules
+
+Control who can skip turns in an activity:
+
+1. Edit the activity
+2. Go to **Skip Rules**
+3. Choose from:
+   - **Everyone**: Any participant can skip any turn
+   - **Own turns only**: Participants can only skip their own turns
+   - **No skips**: Skipping is disabled
+
+You can also enable **Only skip when in credit** to require participants to have completed more turns than average before skipping.
+
+## Admin permissions
+
+Designate participants as admins who can:
+- Edit activity settings
+- Add or remove participants
+- Complete turns on behalf of others
+- Archive or delete the activity
+
+To make someone an admin:
+1. Edit the activity
+2. Find the participant
+3. Toggle **Admin** status
+
+## Due dates
+
+Set recurring due dates for activities:
+
+1. Edit the activity
+2. Enable **Due Date**
+3. Set the initial due date
+4. Choose recurrence:
+   - None (one-time)
+   - Daily
+   - Weekly
+   - Monthly
+
+When a turn is completed, the due date automatically advances based on the recurrence.
+
+## Done by me
+
+If you complete an activity when it's not your turn:
+
+1. Open the activity menu (three dots)
+2. Click **Done by me**
+3. The turn history records you did it, but the turn order continues normally
+
+This is useful for tracking who actually did the work, even when it wasn't their scheduled turn.
+
+## Leaving an activity
+
+If you're a participant in someone else's activity:
+
+1. Open the activity menu
+2. Click **Leave Activity**
+3. Confirm
+
+<Note>
+If only one participant remains after you leave, the activity will be automatically archived.
+</Note>
+
 ## Next steps
 
-<Card title="Participant groups" icon="users" href="/web/participant-groups">
-  Learn how to create and manage participant groups
-</Card>
+<CardGroup cols={2}>
+  <Card title="Automatic rotation" icon="clock" href="/web/automatic-rotation">
+    Set up automatic turn rotation
+  </Card>
+  <Card title="Rewards system" icon="coins" href="/web/rewards">
+    Track money or points for turns
+  </Card>
+  <Card title="Participant groups" icon="users" href="/web/participant-groups">
+    Create and manage participant groups
+  </Card>
+</CardGroup>
